@@ -1,5 +1,5 @@
 # IsolatedOS
-Alien Isolation inspired fan made 32 bit real operating system.
+Alien Isolation inspired fan made 32 bit real operating system. This operating system consist of it's own bootloader and -very- little kernel which not derived from Linux or something.
 # Installation
 Download ISO file in releases page and use an emulator to run it. 
 Operating system can be run in legacy bios mode on any computer in theory but **I strongly suggest you to run it on virtual device**.
