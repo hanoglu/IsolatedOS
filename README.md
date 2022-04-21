@@ -6,7 +6,7 @@ Operating system can be run in legacy bios mode on any computer in theory but **
 # How to build
 ## Required Packages
 Install the required packages to compile operating system.
-```
+```bash
 gcc
 nasm
 qemu-kvm
@@ -14,19 +14,19 @@ qemu-kvm
 Note: qemu-kvm package is required for testing iso
 ## Build Scripts
 Open a terminal in project root directory and run script files.
-```
+```bash
 chmod +x build.sh
 chmod +x run.sh
 ./build.sh
 ./run.sh
 ```
 To build and run
-```
+```bash
 ./build.sh && ./run.sh
 ```
 # How to change messages in OS
 To change messages in OS open vgasrc.cpp file in winsis directory and change following lines.
-```
+```cpp
 // PERSONAL:
 #define _PersonalCount 2
 const char* personal_title = "CONFIGURING MESSAGES";
@@ -57,7 +57,7 @@ If you change the line count you should change '_PersonalCount, _UtilitiesCount 
 # Login Password
 Default login password is 'ADMIN'.<br>
 You can change password in vgasrc.cpp file.
-```
+```cpp
 const char* passwd = "ADMIN";
 
 ```
