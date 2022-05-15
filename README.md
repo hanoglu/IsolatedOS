@@ -1,3 +1,4 @@
+<img width="577" alt="resim" src="https://user-images.githubusercontent.com/56837349/162581115-d553dd64-c717-4058-a409-c57fddc61678.png">
 # IsolatedOS
 Alien Isolation inspired fan made 32 bit real operating system. This operating system consist of it's own bootloader and -very- little kernel which not derived from Linux or something.
 # Installation
